@@ -1,17 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+ <app-user-card 
+    [userName]="'Selva Molina'" 
+    [additionalInfo]="'Informacion Adicional: Secretaria'"
+    [userProfileImage]="'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359554_1280.png'">
+  </app-user-card>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <app-user-card 
+    [userName]="'Marcelo Guamán'" 
+    [additionalInfo]="'Información Adicional: Chofer'"
+    [userProfileImage]="'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png'">
+  </app-user-card>
 </ion-content>

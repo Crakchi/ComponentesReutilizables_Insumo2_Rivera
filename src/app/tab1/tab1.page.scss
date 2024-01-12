@@ -1,0 +1,15 @@
+ion-content{
+    --background: rgb(255, 255, 255) ;
+}
+app-user-card {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fdfdfd; 
+    border-radius: 10px; 
+    color: rgb(22, 48, 104);
+    border: 1px solid rgb(214, 214, 214);
+    
+}
