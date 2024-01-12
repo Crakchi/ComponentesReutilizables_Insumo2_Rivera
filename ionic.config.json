@@ -1,0 +1,7 @@
+{
+  "name": "ComponentesReutilizables_Insumo2_Rivera",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
