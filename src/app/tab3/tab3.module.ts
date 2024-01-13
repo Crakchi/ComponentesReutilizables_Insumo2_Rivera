@@ -7,6 +7,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab3PageRoutingModule } from './tab3-routing.module';
 
+import { ColorListComponent } from '../color-list/color-list.component';
 @NgModule({
   imports: [
     IonicModule,
@@ -15,6 +16,6 @@ import { Tab3PageRoutingModule } from './tab3-routing.module';
     ExploreContainerComponentModule,
     Tab3PageRoutingModule
   ],
-  declarations: [Tab3Page]
+  declarations: [Tab3Page,ColorListComponent]
 })
 export class Tab3PageModule {}
